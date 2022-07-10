@@ -1,0 +1,49 @@
+body {
+	background-color: #212529;
+	text-align: center;
+	overflow-x: hidden;
+}
+.site {
+	overflow-x: hidden;
+}
+.img1 {
+	max-height: 90vh;
+	overflow: hidden;
+}
+iframe {
+	width: 490px;
+	height: 300px;
+}
+@media (min-width:321px) and (max-width: 1000px) {
+	body {
+		overflow-x: hidden;
+	}
+	.img1{
+			min-height: unset !important;
+			height: 90vh !important;
+			overflow: hidden;
+			width: auto;
+			margin-left: -800px;
+			overflow-x: hidden;
+	}
+	iframe {
+	width: 310px;
+	height: 200px;
+	}
+	.left {
+		text-align: left;
+	}
+}
+.imp {
+	max-height: 70vh;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 37vh;
+	justify-items: center;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	background-color: #212529;
+}
+.col {
+	margin-bottom: 5vh;
+}
