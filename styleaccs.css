@@ -1,0 +1,39 @@
+body {
+	background-color: #535151;
+	text-align: center;
+	overflow-x: hidden;
+}
+.site {
+	overflow-x: hidden;
+}
+@media (min-width:321px) and (max-width: 990px) {
+	body {
+		overflow-x: hidden;
+	}
+	.left {
+		text-align: left;
+	}
+}
+a {
+	text-decoration: none;
+	color: black;
+
+}
+.a1:hover {
+	color: darkblue;
+}
+.a2:hover {
+	color: dimgrey;
+}
+.a3:hover {
+	color: sandybrown;
+}
+.header {
+	size: 5rem;
+	color: white;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+.col {
+	margin-top: 3vh;
+}

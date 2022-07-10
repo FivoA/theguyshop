@@ -1,0 +1,26 @@
+body {
+	background-color: #535151;
+	text-align: center;
+	overflow-x: hidden;
+}
+.site {
+	overflow-x: hidden;
+}
+.ps {
+	font-weight: bolder; margin-left: 10vh; margin-right: 10vh; font-size: 140%;
+}
+@media (min-width:321px) and (max-width: 1400px) {
+	body {
+		overflow-x: hidden;
+	}
+	.left {
+		text-align: left;
+	}
+	.colh {
+		display: none;
+	}
+	.ps {
+		margin-right: 5vh;
+		margin-left: 5vh;
+	}
+}
