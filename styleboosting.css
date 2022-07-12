@@ -1,0 +1,22 @@
+body {
+	background-color: #535151;
+	text-align: center;
+	overflow-x: hidden;
+}
+.site {
+	overflow-x: hidden;
+}
+.btmtext {
+	text-align: center; color: white; margin-left: 60vh; margin-right: 60vh;
+}
+@media (min-width:321px) and (max-width: 1400px) {
+	body {
+		overflow-x: hidden;
+	}
+	.btmtext {
+		margin-left: 3vh; margin-right: 3vh;
+	}
+}
+.priceresult {
+	
+}
